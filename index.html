@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salong Hår | Professionell Hårvård</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">STUDIO HÅR</div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#tjanster" class="nav-links">Tjänster</a></li>
+            <li><a href="#galleri" class="nav-links">Galleri</a></li>
+            <li><a href="#kontakt" class="nav-links">Kontakt</a></li>
+            <li><a href="#" class="nav-links btn-book" id="nav-book-btn">BOKA TID</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Elegans i varje klipp</h1>
+            <p>Upplev modern hårvård i en avkopplande miljö.</p>
+            <a href="#tjanster" class="cta-main">Se våra tjänster</a>
+        </div>
+    </header>
+
+    <section class="section" id="tjanster">
+        <h2 class="section-title">Våra Tjänster</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Klippning</h3>
+                <p>Inklusive konsultation och styling.</p>
+                <p class="price">fr. 650 kr</p>
+                <button class="btn-book" style="margin-top:15px; padding: 10px 20px;">Välj tid</button>
+            </div>
+            <div class="card">
+                <h3>Färg & Balayage</h3>
+                <p>Skräddarsydd färg för din unika stil.</p>
+                <p class="price">fr. 1600 kr</p>
+                <button class="btn-book" style="margin-top:15px; padding: 10px 20px;">Välj tid</button>
+            </div>
+            <div class="card">
+                <h3>Styling</h3>
+                <p>Inför fest, bröllop eller vardagslyx.</p>
+                <p class="price">fr. 450 kr</p>
+                <button class="btn-book" style="margin-top:15px; padding: 10px 20px;">Välj tid</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section grey-bg" id="galleri">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="grid-gallery">
+            <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600" alt="Hår 1">
+            <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=600" alt="Hår 2">
+            <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=600" alt="Hår 3">
+        </div>
+    </section>
+
+    <footer id="kontakt">
+        <div class="footer-content">
+            <div>
+                <h4>Hitta hit</h4>
+                <p>Frisörgatan 12, 111 22 Stockholm</p>
+            </div>
+            <div>
+                <h4>Öppettider</h4>
+                <p>Mån-Fre: 09-18 | Lör: 10-15</p>
+            </div>
+            <div>
+                <h4>Kontakt</h4>
+                <p>Tel: 08-123 45 67<br>Email: info@salongelite.se</p>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Salong Elite. Design av krajdans design</p>
+    </footer>
+
+    <a href="#" class="mobile-book-btn">BOKA TID HÄR</a>
+
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 style="font-family: 'Playfair Display'; margin-bottom: 20px;">Boka din tid</h2>
+            <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0awjsw4fIbSw0_46sZnu-K-Ydjcivcxj3JuxEaHH6TJSoH2ad7riQyGLgU743e-a6NolPhTESj?gv=true" 
+                    class="calendar-iframe"
+                    style="border: 0" 
+                    width="100%" 
+                    height="600" 
+                    frameborder="0">
+            </iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
